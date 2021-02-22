@@ -1,14 +1,14 @@
 ---
-apiVersion: source.toolkit.fluxcd.io/v1beta1
-kind: GitRepository
-metadata:
-  name: testsource
-  namespace: flux-system
-spec:
-  interval: 30s
-  ref:
-    branch: master
-  url: https://github.com/stefanprodan/podinfo
+# apiVersion: source.toolkit.fluxcd.io/v1beta1
+# kind: GitRepository
+# metadata:
+#   name: testsource
+#   namespace: flux-system
+# spec:
+#   interval: 30s
+#   ref:
+#     branch: master
+#   url: https://github.com/stefanprodan/podinfo
 
 # apiVersion: kustomize.config.k8s.io/v1beta1
 # kind: Kustomization
