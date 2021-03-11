@@ -9,7 +9,7 @@ spec:
   ref:
     branch: master
   url: https://github.com/stefanprodan/podinfo
-
+---
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 namespace: test-wordpress
